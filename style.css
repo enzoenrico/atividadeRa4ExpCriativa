@@ -241,25 +241,60 @@ form button:hover{
     padding: 1rem;
 
 }
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
+
+.bebidas-wrapper {
+    padding: 8px 0 0;
+}
+
+.bebidas-table-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0;
+    margin: 0;
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+}
+
+table td {
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+}
+
+.table th, .table td {
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px;
+    /*padding: 8px 160px 0;*/
+}
+
+.table tr:nth-child(even) {
+    background-color: var(--accent-min);
+}
+
+
+.working-hours-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 2rem;
+}
+
+.footer span {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+}
 
