@@ -39,6 +39,7 @@ header {
 
 .main-header a {
   text-transform: uppercase;
+  color: black;
 }
 
 header a {
@@ -86,6 +87,8 @@ header a:hover {
   color: black;
   text-decoration: underline;
   text-align: center;
+
+  padding-top: 16px;
 }
 
 .most-famous-wrapper {
