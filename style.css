@@ -242,11 +242,11 @@ form button:hover{
 
 }
 
-.bebidas-wrapper {
+.bebidas-wrapper, working-hours {
     padding: 8px 0 0;
 }
 
-.bebidas-table-wrapper {
+.bebidas-table-wrapper, .working-hours-wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -260,8 +260,8 @@ table {
 }
 
 table td {
-    word-wrap: break-word;         /* All browsers since IE 5.5+ */
-    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .table th, .table td {
@@ -275,20 +275,16 @@ table td {
     background-color: var(--accent-min);
 }
 
-
-.working-hours-wrapper {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 16px 0;
-    margin: 0;
-}
-
 .footer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: black;
-    padding: 2rem;
+    padding: 20px;
+}
+
+.social-media {
+    cursor: pointer;
 }
 
 .footer span {
