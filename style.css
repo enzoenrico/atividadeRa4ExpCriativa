@@ -85,7 +85,7 @@ header a:hover {
 .title {
   font-weight: bold;
   color: black;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-align: center;
 
   padding-top: 16px;
