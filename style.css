@@ -186,6 +186,8 @@ header a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    height: 100vh;
 }
 
 .form-wrapper{
@@ -242,7 +244,17 @@ form button:hover{
 
 }
 
-.bebidas-wrapper, working-hours {
+.bg-black{
+  background-color: black;
+  color: white;
+}
+
+.bg-gray{
+  background-color: gray;
+}
+
+
+.bebidas-wrapper, .working-hours {
     padding: 8px 0 0;
 }
 
